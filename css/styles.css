@@ -166,7 +166,7 @@ p.tag{
   float:left;
 }
 
-.java .top-bar{
+.java .top-bar, .javafx .top-bar{
   background-color:#4CA679;
 }
 
@@ -174,7 +174,7 @@ p.tag{
   color:#4CA679;
 }
 
-.django{
+.django, .javafx{
   width:48%;
   float:right;
 }
