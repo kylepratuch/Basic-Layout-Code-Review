@@ -1,0 +1,89 @@
+/* Basic page setup
+==============================*/
+body{
+  background-color:#ededed;
+  font-family:'Nunito', sans-serif;
+  color:#333333;
+}
+
+.container{
+  margin:1em 10em 1em 10em;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Navbar elements
+==============================*/
+.navbar{
+  width:100%;
+  font-size:1.2em;
+  border-bottom:1px solid lightgray;
+  box-shadow: 0 4px 2px -2px lightgray;
+}
+
+.title{
+  width:5em;
+  float:left;
+  display:inline;
+}
+
+.points{
+  width:5em;
+  display:inline;
+  float:right;
+  margin-right:-2em;
+  opacity:0.3;
+}
+
+.alerts, .arrow, .profile{
+  width:5em;
+  float:right;
+  text-align:center;
+  display:inline;
+  border-left: 1px solid lightgray;
+  position:relative;
+  margin-top:1em;
+}
+
+.profile{
+  border-left:none;
+}
+
+.alerts img, .arrow img{
+  width:28%;
+  opacity:0.2;
+}
+
+.alerts p{
+  font-size:.8em;
+  position:absolute;
+  top:-1.8em;
+  left:3.2em;
+  background-color:#ff4c4c;
+  color:white;
+  padding:.1em .2em .1em .2em;
+  border-radius:4px;
+}
+
+.profile img{
+  width:10%;
+  opacity:0.2;
+}
+
+.profile img:nth-child(1){
+  width:50%;
+}
+
+.person{
+  width:25%;
+  height:100%;
+  background-color:white;
+  float:left;
+  clear:right;
+  border-radius:100%;
+  border:2px solid royalblue;
+}
