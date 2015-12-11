@@ -147,7 +147,7 @@ p.tag{
 }
 
 .video-icons{
-  width:50%;
+  width:30%;
   float:right;
   text-align:right;
   margin-top:-.5em;
@@ -161,17 +161,9 @@ p.tag{
 
 /* Specific Course Styling
 ==============================*/
-.java{
+.java, .woo{
   width:48%;
   float:left;
-}
-
-.java .top-bar, .javafx .top-bar{
-  background-color:#4CA679;
-}
-
-.java-tag{
-  color:#4CA679;
 }
 
 .django, .javafx{
@@ -179,8 +171,23 @@ p.tag{
   float:right;
 }
 
+.java .top-bar, .javafx .top-bar{
+  background-color:#4CA679;
+}
+
 .django .top-bar{
   background-color:#e55ea2;
+}
+
+.woo .top-bar{
+  background-color:#663299;
+}
+.java-tag{
+  color:#4CA679;
+}
+
+.woo-tag{
+  color:#663299;
 }
 
 .django-tag{
