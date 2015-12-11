@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-  margin:1em 10em 1em 10em;
+  margin:1em 30em 1em 30em;
 }
 
 .group:after {
@@ -92,8 +92,11 @@ body{
 ==============================*/
 .courses{
   width:100%;
-  margin-top:2em;
-  border:1px solid red;
+}
+
+.course-box{
+  box-shadow:0 2px 0 lightgray;
+  margin:.5em;
 }
 
 .top-bar{
@@ -119,12 +122,67 @@ p.time{
   float:left;
 }
 
-.java{
+.main-section{
+  background:white;
+  padding:1em;
+  color:gray;
+  font-size:.9em;
+}
+
+.main-section p:nth-child(1){
+  font-weight:bold;
+}
+
+.main-section p:nth-child(2){
+  font-size:1.1em;
+  color:#333333;
+}
+
+p.tag{
+  display:inline;
+  border:2px solid lightgray;
+  border-radius:2em;
+  padding:.2em .4em .2em .4em;
+  margin-right:1em;
+}
+
+.video-icons{
   width:50%;
+  float:right;
+  text-align:right;
+  margin-top:-.5em;
+}
+
+.video-icons img{
+  width:2em;
+  opacity:0.2;
+  margin-right:1em;
+}
+
+/* Specific Course Styling
+==============================*/
+.java{
+  width:48%;
   float:left;
-  border:1px solid green;
 }
 
 .java .top-bar{
   background-color:#4CA679;
+}
+
+.java-tag{
+  color:#4CA679;
+}
+
+.django{
+  width:48%;
+  float:right;
+}
+
+.django .top-bar{
+  background-color:#e55ea2;
+}
+
+.django-tag{
+  color:#e55ea2;
 }
