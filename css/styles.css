@@ -7,7 +7,8 @@ body{
 }
 
 .container{
-  margin:1em 30em 1em 30em;
+  /*margin:1em 30em 1em 30em;*/
+  margin:2% 26% 2% 26%;
 }
 
 .group:after {
@@ -97,6 +98,7 @@ body{
 .course-box{
   box-shadow:0 2px 0 lightgray;
   margin:.5em;
+  position:relative;
 }
 
 .top-bar{
@@ -162,12 +164,12 @@ p.tag{
 /* Specific Course Styling
 ==============================*/
 .java, .woo{
-  width:48%;
+  width:26.5em;
   float:left;
 }
 
 .django, .javafx{
-  width:48%;
+  width:26.5em;
   float:right;
 }
 
@@ -192,4 +194,24 @@ p.tag{
 
 .django-tag{
   color:#e55ea2;
+}
+
+/* Positioning Popup
+==============================*/
+.popup{
+  position:absolute;
+  top:5.5em;
+  left:13.75em;
+}
+
+.popup img{
+  position:relative;
+}
+
+.popup-text{
+  font-size:.8em;
+  position:absolute;
+  top:0;
+  left:0;
+  padding:.5em 1.5em .5em 1.5em;
 }
